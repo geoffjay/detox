@@ -1,0 +1,10 @@
+version: "3"
+
+# Initially this exists to remind me to use bundix.
+#
+# Commands need to follow what's given at https://github.com/inscapist/ruby-nix/tree/main
+
+tasks:
+  install:
+    cmds:
+      - bundix
