@@ -8,3 +8,6 @@ tasks:
   install:
     cmds:
       - bundix
+  shell:
+    cmds:
+      - nix develop -c zsh

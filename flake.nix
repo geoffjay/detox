@@ -1,5 +1,5 @@
 {
-  description = "A simple ruby app demo";
+  description = "Development tooling SaaS";
 
   nixConfig = {
     extra-substituters = "https://nixpkgs-ruby.cachix.org";
@@ -65,7 +65,7 @@
         inherit
           (rubyNix {
             inherit gemset ruby;
-            name = "my-rails-app";
+            name = "devtools";
             gemConfig = pkgs.defaultGemConfig // gemConfig;
           })
           env
